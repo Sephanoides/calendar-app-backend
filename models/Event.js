@@ -23,7 +23,6 @@ const EventoSchema = Schema({
         ref: 'Usuario', // para saber que usuario creo el evento.
         required: true
     }
-   
 })
 
 EventoSchema.method('toJSON', function (){
